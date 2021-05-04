@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-14">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Selenium Software/ApacheJARs/commons-codec-1.15.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Software/ApacheJARs/commons-collections4-4.4.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Software/ApacheJARs/commons-compress-1.20.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Software/ApacheJARs/commons-math3-3.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Software/ApacheJARs/curvesapi-1.06.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Software/ApacheJARs/poi-5.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Software/ApacheJARs/poi-examples-5.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Software/ApacheJARs/poi-excelant-5.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Software/ApacheJARs/poi-integration-5.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Software/ApacheJARs/poi-ooxml-5.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Software/ApacheJARs/poi-ooxml-full-5.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Software/ApacheJARs/poi-ooxml-lite-5.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Software/ApacheJARs/poi-scratchpad-5.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Software/ApacheJARs/SparseBitSet-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Software/ApacheJARs/xmlbeans-4.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Software/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Software/testng-6.14.3.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Software/cucumber jars-20210427T070618Z-001/cucumber jars/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Software/cucumber jars-20210427T070618Z-001/cucumber jars/cucumber-core-1.2.5.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Software/cucumber jars-20210427T070618Z-001/cucumber jars/cucumber-html-0.2.2-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Software/cucumber jars-20210427T070618Z-001/cucumber jars/cucumber-java-1.2.5.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Software/cucumber jars-20210427T070618Z-001/cucumber jars/cucumber-junit-1.2.5.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Software/cucumber jars-20210427T070618Z-001/cucumber jars/cucumber-jvm-deps-1.0.5.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Software/cucumber jars-20210427T070618Z-001/cucumber jars/cucumber-reporting-0.1.14.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Software/cucumber jars-20210427T070618Z-001/cucumber jars/gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Software/cucumber jars-20210427T070618Z-001/cucumber jars/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="D:/Selenium Software/cucumber jars-20210427T070618Z-001/cucumber jars/mockito-all-2.0.2-beta.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
