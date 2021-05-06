@@ -82,24 +82,26 @@ public class vieworder {
 	 @Test(priority =9)
 	@When("^User cant able to view ordered items$")
 	public void user_cant_able_to_view_ordered_items() throws Throwable {
-		ViewOrderPOM orderpage = PageFactory.initElements(driver,ViewOrderPOM.class);
-		boolean view =driver.findElement(By.xpath("//*[@id=\"emptyOrderTab\"]/div/div")).isDisplayed();
-		Assert.assertTrue(view);
-		   orderpage.clickprofile2();
+		 ViewOrderPOM empty = PageFactory.initElements(driver,ViewOrderPOM.class);
+		//boolean view =driver.findElement(By.xpath("//*[@id=\"emptyOrderTab\"]/div/div")).isDisplayed();
+		 boolean empty1 = empty.displayorders();
+		Assert.assertTrue(empty1);
+		 empty.clickprofile2();
 	}
 	 @Test(priority =10)
 	@When("^Click on signout$")
 	public void click_on_signout() throws Throwable {
 		ViewOrderPOM orderpage = PageFactory.initElements(driver,ViewOrderPOM.class);
+		
 		orderpage.signout();
 		   Thread.sleep(3000);
-		   
-		
 	}
    @AfterTest
 	@Then("^User should view home page$")
 	public void user_should_view_home_page() throws Throwable {
-	  
+	   ViewOrderPOM orderpage = PageFactory.initElements(driver,ViewOrderPOM.class);
+	   orderpage.clickhomepage();
+	   Thread.sleep(3000);
 		  driver.close();
 	    }
 	

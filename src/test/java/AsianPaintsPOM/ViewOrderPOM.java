@@ -26,11 +26,14 @@ public class ViewOrderPOM {
 	WebElement myprofile;
 	@FindBy(xpath="//*[@id=\"as-smart-tab\"]/li[3]/a")
 	WebElement myorder;
+	@FindBy(xpath="//*[@id=\"emptyOrderTab\"]/div/div")
+	WebElement empty;
 	@FindBy(css=".profileIcon-active")
 	WebElement clickprofileicon2;
 	@FindBy(xpath="//*[@id=\"loginDropdown\"]/div/ul/li[3]/a/span")
 	WebElement clicksignout;
-	
+	@FindBy(xpath="//img[@src='/content/dam/apcolourcatalogue/asset/ap-revamp/homepage/asian-paint-logo.jpg']")
+	WebElement Clicklogo;
 	
 
 	public ViewOrderPOM(WebDriver driver)
@@ -74,6 +77,10 @@ public class ViewOrderPOM {
 	{
 		myorder.click();
 	}
+	public boolean displayorders()
+	{
+		return empty.isDisplayed();
+	}
 	public void clickprofile2()
 	{
 		clickprofileicon2.click();
@@ -82,4 +89,9 @@ public class ViewOrderPOM {
 	{
 		clicksignout.click();
 	}
+	public void clickhomepage()
+	{
+		Clicklogo.click();
+	}
+	
 }
